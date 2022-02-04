@@ -262,7 +262,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 radioElement = document.querySelector("#" + r);
                 if (quizItem.a == i) {
                   //change background color of li element here
-                  document.getElementById(`li_${index}_${i}`).style.background = "yellow";
+                  document.getElementById(`li_${index}_${i}`).style.background = "lightpink";
                   if (radioElement.checked) {
                   // code for task 2 goes here
                     score++;
